@@ -1,1 +1,2 @@
-This file was created by IntelliJ IDEA 12.1.3 for binding GitHub repository
+Example of using the Builder design pattern to create objects for tests.
+See http://www.shaunabram.com/builder-pattern/ for more details.
