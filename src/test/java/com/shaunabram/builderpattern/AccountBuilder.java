@@ -40,6 +40,11 @@ public class AccountBuilder {
         return this;
     }
 
+    public AccountBuilder withBalance(int balance) {
+        this.balance = new BigDecimal(balance);
+        return this;
+    }
+
     public AccountBuilder withNegativeBalance() {
         this.balance = new BigDecimal(-100);
         return this;
