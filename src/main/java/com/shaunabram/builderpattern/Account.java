@@ -20,12 +20,12 @@ public final class Account {
 
     public Account(Integer id, String name, AccountType type,
                    BigDecimal balance, DateTime openDate, Status status) {
-        this.status = status;
         this.id = id;
         this.name = name;
         this.type = type;
         this.balance = balance;
         this.openDate = openDate;
+        this.status = status;
     }
 
     public Integer getId() {
